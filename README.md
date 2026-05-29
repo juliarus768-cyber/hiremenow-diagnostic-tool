@@ -50,7 +50,7 @@ python3 -m http.server 4173
 
 Then open <http://127.0.0.1:4173/>.
 
-Cloudflare Pages Functions require Cloudflare deployment or local Cloudflare/Wrangler development tooling to test `/api/diagnostic` end to end.
+Cloudflare Pages Functions require Cloudflare deployment or local Cloudflare/Wrangler development tooling to test `/api/diagnostic` end to end; the simple static preview command only serves the frontend files.
 
 ## Current functionality
 
