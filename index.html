@@ -6,7 +6,7 @@
     <title>Career Positioning Diagnostic | Hire Me Now Resumes</title>
     <meta
       name="description"
-      content="A premium AI-powered resume diagnostic experience by Hire Me Now Resumes, designed to help Canadian professionals understand how employers interpret their resume."
+      content="A premium career positioning diagnostic experience by Hire Me Now Resumes, designed to help Canadian professionals understand how employers interpret their resume."
     />
     <meta name="author" content="Hire Me Now Resumes" />
     <meta name="robots" content="index, follow" />
@@ -65,11 +65,11 @@
               <li>Designed for Canadian professionals</li>
             </ul>
           </div>
-          <aside class="hero-card" aria-label="Diagnostic preview">
-            <div class="card-badge">Premium diagnostic preview</div>
+          <aside class="hero-card" aria-label="Diagnostic summary">
+            <div class="card-badge">Premium diagnostic review</div>
             <h2>See your resume through an employer's lens.</h2>
             <p>
-              This first version collects your target role, optional job posting, and resume text so the diagnostic workflow can be connected to AI in a future release.
+              Share the role you are pursuing, the posting you want to align with, and your resume text for a focused positioning review.
             </p>
             <div class="score-panel" aria-label="Example diagnostic areas">
               <div>
@@ -86,6 +86,12 @@
               </div>
             </div>
           </aside>
+        </div>
+      </section>
+
+      <section class="trust-statement" aria-label="Methodology statement">
+        <div class="container">
+          <p>Built using the career positioning methodology of Julia Cher, Founder &amp; Resume Strategist at Hire Me Now Resumes.</p>
         </div>
       </section>
 
@@ -157,6 +163,30 @@
         </div>
       </section>
 
+      <section class="section positioning-section" id="positioning" aria-labelledby="positioning-title">
+        <div class="container positioning-grid">
+          <div>
+            <p class="eyebrow">Employer decision clarity</p>
+            <h2 id="positioning-title">Why Positioning Matters</h2>
+            <p class="section-lede">Qualified professionals can be missed when their value is not immediately clear.</p>
+          </div>
+          <div>
+            <p>
+              Employers make decisions quickly, often with limited context. A strong resume does more than summarize experience; it helps the reader understand the level you operate at, the value you provide, where you fit, and why you should be interviewed.
+            </p>
+            <p>
+              The Career Positioning Diagnostic brings a calm, consultant-led lens to these questions so your resume can be evaluated against the opportunity you are actually pursuing.
+            </p>
+            <ul class="positioning-list">
+              <li>What level you operate at</li>
+              <li>What value you provide</li>
+              <li>Where you fit</li>
+              <li>Why you should be interviewed</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section class="section form-section" id="form" aria-labelledby="form-title">
         <div class="container form-grid">
           <div class="form-intro">
@@ -184,8 +214,9 @@
               <textarea id="resumeText" name="resumeText" rows="9" required placeholder="Paste your resume text here."></textarea>
               <p class="error-message" id="resumeTextError">Please paste your resume text.</p>
             </div>
-            <button class="button button-primary form-submit" type="submit">Start Free Diagnostic</button>
+            <button class="button button-primary form-submit" id="submitButton" type="submit">Start Free Diagnostic</button>
             <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <section class="diagnostic-result" id="diagnosticResult" aria-live="polite" hidden></section>
           </form>
         </div>
       </section>
@@ -194,11 +225,39 @@
         <div class="container about-card">
           <div>
             <p class="eyebrow">About Hire Me Now Resumes</p>
-            <h2 id="about-title">Resume strategy led by Julia Chernoskutova.</h2>
+            <h2 id="about-title">Resume strategy led by Julia Cher.</h2>
           </div>
           <p>
-            Hire Me Now Resumes helps professionals present their experience with clarity, credibility, and strategic positioning. Led by Julia Chernoskutova, the brand brings a consultant-led approach to resume development for clients navigating competitive Canadian job searches.
+            Hire Me Now Resumes helps professionals present their experience with clarity, credibility, and strategic positioning. Led by Julia Cher, the brand brings a consultant-led approach to resume development for clients navigating competitive Canadian job searches.
           </p>
+        </div>
+      </section>
+
+      <section class="section cta-section" aria-labelledby="cta-title">
+        <div class="container cta-card">
+          <div class="cta-copy">
+            <p class="eyebrow">Next step support</p>
+            <h2 id="cta-title">Need More Than a Diagnostic?</h2>
+            <p>
+              The Career Positioning Diagnostic provides clarity. Implementation often requires deeper discussion, strategy, and professional document development.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://hiremenowresumes.ca">Learn More at Hire Me Now Resumes</a>
+              <a class="button button-secondary" href="mailto:info@hiremenowresumes.ca">Contact Julia Cher</a>
+            </div>
+          </div>
+          <article class="package-card" aria-label="Resume Strategy Package details">
+            <span>Featured service</span>
+            <h3>Resume Strategy Package</h3>
+            <ul>
+              <li>Strategy Consultation</li>
+              <li>One Targeted Resume</li>
+              <li>One Tailored Cover Letter</li>
+              <li>LinkedIn Positioning Guidance</li>
+              <li>Interview Positioning Notes</li>
+              <li>Practical Job Search Resources</li>
+            </ul>
+          </article>
         </div>
       </section>
     </main>
@@ -206,6 +265,8 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
+          <strong>Julia Cher</strong>
+          <p>Hire Me Now Resumes</p>
           <strong>Career Positioning Diagnostic</strong>
           <p>By Hire Me Now Resumes</p>
         </div>
