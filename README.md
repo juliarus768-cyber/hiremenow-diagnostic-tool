@@ -4,7 +4,7 @@ A premium, responsive landing page for the Career Positioning Diagnostic by Hire
 
 ## Overview
 
-This first version is a static front-end experience built with plain HTML, CSS, and JavaScript. It is designed to be fast-loading, accessible, SEO-friendly, and compatible with GitHub Pages.
+This static front-end experience is built with plain HTML, CSS, and JavaScript. It is designed to be fast-loading, accessible, SEO-friendly, and compatible with GitHub Pages.
 
 ## Local preview
 
@@ -20,4 +20,4 @@ Then open <http://127.0.0.1:4173/>.
 
 - Landing page sections for the diagnostic, expected insights, intake form, about section, and footer links.
 - Front-end validation for required target job title and resume text fields.
-- No server submission in this version.
+- Browser-based confirmation messaging with no server submission.
