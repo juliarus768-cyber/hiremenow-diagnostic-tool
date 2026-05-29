@@ -33,12 +33,6 @@ function setStatus(message, type) {
   formStatus.dataset.type = type;
 }
 
-function setLoadingState(isLoading) {
-  submitButton.disabled = isLoading;
-  submitButton.textContent = isLoading ? 'Generating Diagnostic...' : 'Start Free Diagnostic';
-  diagnosticForm.setAttribute('aria-busy', String(isLoading));
-}
-
 function validateForm() {
   let firstInvalidField = null;
 
@@ -141,6 +135,9 @@ diagnosticForm.addEventListener('submit', async (event) => {
   if (submitButton.disabled) {
     return;
   }
+
+diagnosticForm.addEventListener('submit', (event) => {
+  event.preventDefault();
 
   const firstInvalidField = validateForm();
 
